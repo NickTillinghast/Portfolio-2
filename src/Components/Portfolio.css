@@ -1,0 +1,57 @@
+.portfolio-main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: rgb(255, 255, 255);
+  width: 100vw;
+  height: 100vh;
+}
+.pics {
+  background-color: crimson;
+  width: 100vw;
+}
+.boxes {
+  display: flex;
+  justify-content: space-around;
+  height: 300px;
+  padding: 30px;
+  background-color: rgb(65, 65, 65);
+  border-color: rgba(255, 238, 144, 0.452);
+  border-style: solid;
+  border-width: 3px;
+}
+.elements {
+  /* width: 24vw; */
+  padding: 10px;
+  background-color: rgb(65, 65, 65);
+}
+.image-div {
+  padding: 45px;
+}
+.profile-image {
+  width: 250px;
+  /* height: 300px; */
+}
+.projects {
+  height: 23vh;
+}
+.words {
+  font-family: "Noto Serif", serif;
+}
+.about-blurb {
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 20px;
+  margin: 30px;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+.middle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100vw;
+  background-color: rgb(255, 255, 255);
+}

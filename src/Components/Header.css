@@ -1,0 +1,43 @@
+.header-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(65, 65, 65);
+  width: 100vw;
+  height: 7vh;
+  border-bottom-style: solid;
+  border-bottom: gold;
+  border-width: 10px;
+}
+
+.links {
+  color: white;
+  width: 30vw;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+.link-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 20vw;
+  background-color: rgb(65, 65, 65);
+}
+.link-box {
+  display: flex;
+  /* justify-content: space-evenly; */
+  background-color: transparent;
+  width: 35vw;
+}
+.header-name {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  padding: 30px;
+  letter-spacing: 5px;
+  font-family: "Noto Serif", serif;
+  text-decoration: none;
+}
+.titles {
+  display: flex;
+}
