@@ -5,15 +5,12 @@
   justify-content: space-between;
   background-color: rgb(65, 65, 65);
   width: 100vw;
-  height: 7vh;
-  border-bottom-style: solid;
-  border-bottom: gold;
-  border-width: 10px;
+  height: 10vh;
 }
 
 .links {
   color: white;
-  width: 30vw;
+  /* width: 30vw; */
   list-style-type: none;
   justify-content: space-evenly;
 }
@@ -28,7 +25,7 @@
   display: flex;
   /* justify-content: space-evenly; */
   background-color: transparent;
-  width: 35vw;
+  /* width: 35vw; */
 }
 .header-name {
   color: rgb(255, 255, 255);

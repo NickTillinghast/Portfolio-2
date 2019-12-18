@@ -8,8 +8,11 @@ export default function Header() {
       <div className="link-box">
         <ul className="link-items">
           <li className="links">
-            <FaGithub size="50px" />
+            <a className="links" href="https://github.com/NickTillinghast">
+              <FaGithub size="50px" />
+            </a>
           </li>
+
           <li className="links">
             <a
               className="links"

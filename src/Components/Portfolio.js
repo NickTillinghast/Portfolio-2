@@ -11,7 +11,7 @@ export default function Portfolio() {
       <div className="words">
         <div>
           <div className="middle">
-            <div>React, Node.js, Javascript, PostgrasSql</div>
+            {/* <div>React, Node.js, Javascript, PostgrasSql</div> */}
             <div>
               <div className="about-blurb">
                 <div>

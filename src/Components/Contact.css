@@ -1,8 +1,12 @@
 .contact {
   display: flex;
+  align-items: center;
+  flex-direction: row;
   justify-content: center;
   background-color: rgb(255, 255, 255);
+  padding: 40px;
 }
+
 .form-boxes {
   display: flex;
   flex-direction: row;

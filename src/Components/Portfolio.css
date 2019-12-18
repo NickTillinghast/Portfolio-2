@@ -4,13 +4,13 @@
   flex-direction: column;
   justify-content: space-evenly;
   background-color: rgb(255, 255, 255);
-  width: 100vw;
+  /* width: 90vw; */
   height: 100vh;
 }
-.pics {
+/* .pics {
   background-color: crimson;
   width: 100vw;
-}
+} */
 .boxes {
   display: flex;
   justify-content: space-around;
@@ -37,6 +37,7 @@
   height: 23vh;
 }
 .words {
+  /* padding: 100px; */
   font-family: "Noto Serif", serif;
 }
 .about-blurb {
@@ -48,10 +49,10 @@
   letter-spacing: 4px;
 }
 .middle {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
   width: 100vw;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255); */
 }
