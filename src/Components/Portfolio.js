@@ -9,12 +9,12 @@ export default function Portfolio() {
   return (
     <div className="portfolio-main">
       <div className="words">
-        <div>
+        <div className="portfolio-content">
           <div className="middle">
             {/* <div>React, Node.js, Javascript, PostgrasSql</div> */}
             <div>
               <div className="about-blurb">
-                <div>
+                <div className="portfolio-text">
                   Web development has merged many things I really enjoy in this
                   world. I was a professional photographer for many years so I
                   am a very visual person. Problem solving is a crucial part of

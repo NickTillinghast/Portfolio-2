@@ -40,6 +40,12 @@
   /* padding: 100px; */
   font-family: "Noto Serif", serif;
 }
+.portfolio-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60vw;
+}
 .about-blurb {
   display: flex;
   flex-direction: row-reverse;
@@ -48,11 +54,6 @@
   font-weight: 400;
   letter-spacing: 4px;
 }
-.middle {
-  /* display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
+.portfolio-content {
   width: 100vw;
-  background-color: rgb(255, 255, 255); */
 }
