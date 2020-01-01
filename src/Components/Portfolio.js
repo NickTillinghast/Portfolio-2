@@ -4,6 +4,7 @@ import "./Portfolio.css";
 import critique from "../media/critique.png";
 import profile from "../media/profile.jpg";
 import group from "../media/group.png";
+import thisisdevmtn from "../media/thisisdevmtn.png";
 
 export default function Portfolio() {
   return (
@@ -34,12 +35,31 @@ export default function Portfolio() {
             <div className="boxes">
               <div className="elements">
                 <img className="projects" src={photography} alt="none" />
+
+                <a
+                  className="code-link"
+                  href="https://github.com/NickTillinghast/personal-project"
+                >
+                  View Code Here
+                </a>
               </div>
               <div className="elements">
                 <img className="projects" src={critique} alt="none" />
+                <a
+                  className="code-link"
+                  href="https://github.com/NickTillinghast/no-db"
+                >
+                  View Code Here
+                </a>
               </div>
               <div className="elements">
-                <img className="projects" src={group} alt="none" />
+                <img className="projects" src={thisisdevmtn} alt="none" />
+                <a
+                  className="code-link"
+                  href="https://github.com/C-E-Campbell/groupProjectWPX15"
+                >
+                  View Code Here
+                </a>
               </div>
             </div>
           </div>

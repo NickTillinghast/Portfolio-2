@@ -22,12 +22,14 @@
   border-width: 3px;
 }
 .elements {
-  /* width: 24vw; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   padding: 10px;
   background-color: rgb(65, 65, 65);
 }
 .image-div {
-  padding: 45px;
+  margin-right: 40px;
 }
 .profile-image {
   width: 250px;
@@ -56,4 +58,9 @@
 }
 .portfolio-content {
   width: 100vw;
+}
+.code-link {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(158, 158, 158);
 }
