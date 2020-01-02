@@ -9,8 +9,7 @@ export default class Contact extends Component {
       firstName: "",
       lastName: "",
       email: "",
-      phone: "",
-      info: ""
+      phone: ""
     };
   }
   firstHandleChange(value) {
@@ -40,17 +39,15 @@ export default class Contact extends Component {
       firstName: this.state.firstName,
       lastName: this.state.lastName,
       email: this.state.email,
-      phone: this.state.phone,
-      info: this.state.info
+      phone: this.state.phone
     };
     alert("email sent");
-    axios.post("auth/contact", clientInfo).then(response => {
+    axios.post("/auth/contact", clientInfo).then(response => {
       this.setState({
         firstName: "",
         lastName: "",
         email: "",
-        phone: "",
-        info: ""
+        phone: ""
       });
     });
     console.log(clientInfo);

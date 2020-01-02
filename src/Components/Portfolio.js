@@ -3,7 +3,7 @@ import photography from "../media/photography.png";
 import "./Portfolio.css";
 import critique from "../media/critique.png";
 import profile from "../media/profile.jpg";
-import group from "../media/group.png";
+
 import thisisdevmtn from "../media/thisisdevmtn.png";
 
 export default function Portfolio() {
@@ -16,11 +16,11 @@ export default function Portfolio() {
             <div>
               <div className="about-blurb">
                 <div className="portfolio-text">
-                  Web development has merged many things I really enjoy in this
-                  world. I was a professional photographer for many years so I
-                  am a very visual person. Problem solving is a crucial part of
-                  web development and problem solving was one of my favorite
-                  parts of wedding photography.
+                  Former professional photographer turned web developer. I’m
+                  hard working, humble, and always eager to expand my knowledge
+                  to reach my goals. Problem solving and visual elements were a
+                  big part of wedding photography. Web development is a crucial
+                  part of web development.
                 </div>
 
                 <div>
