@@ -3,10 +3,13 @@ const express = require("express");
 const app = express();
 const session = require("express-session");
 // const massive = require("massive");
-// const bodyParser = require("body-parser");
+const nodemailer = require("nodemailer");
+const bodyParser = require("body-parser");
 const path = require("path");
 const { SESSION_SECRET, SERVER_PORT } = process.env;
 const port = SERVER_PORT;
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false }));
 app.use(
   session({
     resave: false,
@@ -23,7 +26,6 @@ app.use(
 //   app.set("db", db);
 // });
 
-const nodemailer = require("nodemailer");
 app.post("/auth/contact", (req, res) => {
   const { firstName, lastName, email, phone } = req.body;
   console.log(firstName, lastName, email, phone);
