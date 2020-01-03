@@ -19,8 +19,17 @@
 .input-boxes {
   width: 30vw;
   height: 4vh;
+  border-radius: 5px;
+  background-color: #d5d5d5;
 }
 .message-box {
   width: 30vw;
   height: 10vh;
+}
+.send-button {
+  height: 4vh;
+  width: 10vw;
+  border-width: 5px;
+  background-color: rgb(230, 230, 230);
+  margin-top: 5px;
 }
