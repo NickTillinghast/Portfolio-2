@@ -18,9 +18,10 @@ export default function Portfolio() {
                 <div className="portfolio-text">
                   Former professional photographer turned web developer. I’m
                   hard working, humble, and always eager to expand my knowledge
-                  to reach my goals. Problem solving and visual elements were a
-                  big part of wedding photography. Web development is a crucial
-                  part of web development.
+                  to reach my goals. Bringing my knowledge of being owner
+                  operator of my own business. Problem solving and visual
+                  elements were a big part of wedding photography. Web
+                  development is a crucial part of web development.
                 </div>
 
                 <div>
