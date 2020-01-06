@@ -21,7 +21,7 @@ export default function Portfolio() {
                   to reach my goals. Bringing my knowledge of being owner
                   operator of my own business. Problem solving and visual
                   elements were a big part of wedding photography. Web
-                  development is a crucial part of web development. More needed.
+                  development is a crucial part of web development.
                 </div>
 
                 <div>
