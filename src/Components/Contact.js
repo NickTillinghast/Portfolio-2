@@ -1,6 +1,16 @@
 import React, { Component } from "react";
 import axios from "axios";
 import "./Contact.css";
+import { FaReact, FaCss3Alt, FaNode } from "react-icons/fa";
+import {
+  DiPostgresql,
+  DiJavascript1,
+  DiGithubFull,
+  DiHtml5,
+  DiVisualstudio,
+  DiSass,
+  DiPhotoshop
+} from "react-icons/di";
 
 export default class Contact extends Component {
   constructor() {
@@ -116,6 +126,16 @@ export default class Contact extends Component {
               </div>
             </div>
           </form>
+          <FaReact size="100px" color="#32c6e0" />
+          <FaCss3Alt size="100px" color="#1975ff" />
+          <FaNode size="100px" color="#1bd449" />
+          <DiGithubFull size="100px" color="#32c6e0" />
+          <DiPostgresql size="100px" color="#32c6e0" />
+          <DiJavascript1 size="100px" color="#32c6e0" />
+          <DiHtml5 size="100px" color="#32c6e0" />
+          <DiVisualstudio size="100px" color="#32c6e0" />
+          <DiSass size="100px" color="#32c6e0" />
+          <DiPhotoshop size="100px" color="#32c6e0" />
         </div>
       </div>
     );

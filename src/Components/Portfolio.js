@@ -18,10 +18,9 @@ export default function Portfolio() {
                 <div className="portfolio-text">
                   Former professional photographer turned web developer. I’m
                   hard working, humble, and always eager to expand my knowledge
-                  to reach my goals. Bringing my knowledge of being owner
-                  operator of my own business. Problem solving and visual
-                  elements were a big part of wedding photography. Web
-                  development is a crucial part of web development.
+                  to reach my goals. Problem solving and visual elements were a
+                  big part of my photography business and now I bring those
+                  passions into my web development.
                 </div>
 
                 <div>
@@ -36,6 +35,10 @@ export default function Portfolio() {
             <div className="boxes">
               <div className="elements">
                 <img className="projects" src={photography} alt="none" />
+                <h1>
+                  Photographer Website showcasing visual talents with many
+                  galleries and contact form to hire photogapher.
+                </h1>
 
                 <a
                   className="code-link"
@@ -43,9 +46,19 @@ export default function Portfolio() {
                 >
                   View Code Here
                 </a>
+                <a
+                  className="code-link"
+                  href="https://nicktillinghastphotography.com/#/"
+                >
+                  Live Site Here
+                </a>
               </div>
               <div className="elements">
                 <img className="projects" src={critique} alt="none" />
+                <h1>
+                  Photography critique application that promotes constructive
+                  feedback and a safe and visual learning experience.
+                </h1>
                 <a
                   className="code-link"
                   href="https://github.com/NickTillinghast/no-db"
@@ -55,11 +68,18 @@ export default function Portfolio() {
               </div>
               <div className="elements">
                 <img className="projects" src={thisisdevmtn} alt="none" />
+                <h1>
+                  Project showcasing application for past, present and current
+                  DevMountain students to view and experience students projects.
+                </h1>
                 <a
                   className="code-link"
                   href="https://github.com/C-E-Campbell/groupProjectWPX15"
                 >
                   View Code Here
+                </a>
+                <a className="code-link" href="https://thisisdevmountain.com/">
+                  Live Site Here
                 </a>
               </div>
             </div>
