@@ -5,7 +5,8 @@
   justify-content: center;
   background-color: rgb(255, 255, 255);
   padding: 40px;
-  margin-top: 20px;
+  /* margin-top: 20px; */
+  background-color: mintcream;
 }
 
 .form-boxes {
@@ -20,16 +21,22 @@
   width: 30vw;
   height: 4vh;
   border-radius: 5px;
-  background-color: #d5d5d5;
+  background-color: #ffffff;
 }
 .message-box {
-  width: 30vw;
   height: 10vh;
 }
 .send-button {
   height: 4vh;
   width: 10vw;
-  border-width: 5px;
-  background-color: rgb(230, 230, 230);
+  border-width: 2px;
+  background-color: rgb(255, 255, 255);
   margin-top: 5px;
+  border-radius: 5px;
+}
+.skills {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 100vw;
 }
