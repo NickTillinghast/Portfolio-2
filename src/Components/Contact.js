@@ -127,11 +127,11 @@ export default class Contact extends Component {
             </div>
           </form>
           <div className="skills">
-            <FaReact size="100px" color="#32c6e0" />
             <FaCss3Alt size="100px" color="#1975ff" />
-            <FaNode size="100px" color="#1bd449" />
             <DiGithubFull size="100px" color="#000000" />
             <DiPostgresql size="100px" color="#125d88" />
+            <FaReact size="100px" color="#32c6e0" />
+            <FaNode size="100px" color="#1bd449" />
             <DiJsBadge size="100px" color="#ffd82d" />
             <DiHtml5 size="100px" color="#f13d1e" />
             <DiVisualstudio size="100px" color="#408abb" />
