@@ -20,7 +20,7 @@ export default function Portfolio() {
                   hard working, humble, and always eager to expand my knowledge
                   to reach my goals. Problem solving and visual elements were a
                   big part of my photography business and now I bring those
-                  passions into my web development. Programming is awesome.
+                  passions into my web development.
                 </div>
 
                 <div>
