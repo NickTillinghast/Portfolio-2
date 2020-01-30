@@ -54,8 +54,6 @@ app.post("/auth/contact", (req, res) => {
                <li>Name: ${firstName} ${lastName}</li>
                <li>Email: ${email}</li>
                <li>Phone: ${phone}</li>
-           
-
            </ul>
            <body>`
   };
