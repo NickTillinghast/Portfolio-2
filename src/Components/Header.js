@@ -29,7 +29,7 @@ export default function Header() {
         <div className="header-name">
           <a
             className="resume"
-            href="https://drive.google.com/file/d/1AZkF7bQKR631k_a_D7coXJuCc9pdmAy8/view?usp=sharing"
+            href="https://docs.google.com/document/d/17paeshjmnftP1skHQNKtNnlP3Rh_uvTmYAoA7YpJllM/edit?usp=sharing"
           >
             Resume
           </a>
