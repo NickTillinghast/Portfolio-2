@@ -77,7 +77,7 @@ export default class Contact extends Component {
                   className="input-boxes"
                   type="text"
                   id="firstName"
-                  // placeholder="First Name"
+
                   onChange={e => this.firstHandleChange(e.target.value)}
                 />
               </div>

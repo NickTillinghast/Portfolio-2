@@ -28,11 +28,17 @@
 }
 .send-button {
   height: 4vh;
-  width: 10vw;
-  border-width: 2px;
-  background-color: rgb(255, 255, 255);
+  width: 13vw;
+  border-width: 1px;
+  border-color: black;
+  color: white;
   margin-top: 5px;
-  border-radius: 5px;
+  border-radius: 1px;
+  background-color: rgba(51, 171, 187, 0.801);
+  height: 5vh;
+}
+.send-button:active {
+  background-color: rgb(253, 253, 253);
 }
 .skills {
   display: flex;

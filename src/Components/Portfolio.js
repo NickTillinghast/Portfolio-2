@@ -3,7 +3,7 @@ import photography from "../media/photography.png";
 import "./Portfolio.css";
 import critique from "../media/critique.png";
 import profile from "../media/profile.jpg";
-
+import juniors from "../media/juniors.png";
 import thisisdevmtn from "../media/thisisdevmtn.png";
 
 export default function Portfolio() {
@@ -83,7 +83,25 @@ export default function Portfolio() {
                 </a>
               </div>
             </div>
+            <div className="boxes">
+              coming soon<div className="elements">
+                <img className="projects" src={juniors} alt="none" />
+                <h1>Coming soon</h1>
+                <h1>
+                  Business website for Junior Barber Parlor providing business information and online representation of barbers.
+                </h1>
+
+                <a
+                  className="code-link"
+                  href="https://github.com/NickTillinghast/juniors"
+                >
+                  View Code Here
+                </a>
+
+              </div>
+            </div>
           </div>
+
         </div>
       </div>
     </div>

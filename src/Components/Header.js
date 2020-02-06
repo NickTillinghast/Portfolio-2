@@ -28,7 +28,7 @@ export default function Header() {
         <div className="header-name">Web Developer</div>
         <div className="header-name">
           <a
-            className="header-name"
+            className="resume"
             href="https://drive.google.com/file/d/1AZkF7bQKR631k_a_D7coXJuCc9pdmAy8/view?usp=sharing"
           >
             Resume

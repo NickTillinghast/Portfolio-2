@@ -12,6 +12,7 @@
   color: white;
   list-style-type: none;
   justify-content: space-evenly;
+  font-family: "Noto Serif", serif;
 }
 .link-items {
   display: flex;
@@ -20,7 +21,9 @@
   width: 20vw;
   background-color: #141414;
 }
-
+.links:hover {
+  color: rgba(51, 171, 187, 0.801);
+}
 .link-box {
   display: flex;
   background-color: transparent;
@@ -35,4 +38,15 @@
 }
 .titles {
   display: flex;
+}
+.resume {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  padding: 30px;
+  letter-spacing: 5px;
+  font-family: "Noto Serif", serif;
+  text-decoration: none;
+}
+.resume:hover {
+  color: rgba(51, 171, 187, 0.801);
 }

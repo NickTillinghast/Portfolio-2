@@ -37,6 +37,7 @@
 }
 .profile-image {
   width: 250px;
+  border-radius: 700px;
 }
 h1 {
   width: 20vw;
@@ -60,7 +61,7 @@ h1 {
   color: rgb(255, 255, 255);
   background-color: rgba(0, 0, 0, 0.596);
   border: solid;
-  border-radius: 40px;
+  border-radius: 5px;
   padding: 10px;
 }
 .about-blurb {
@@ -79,4 +80,7 @@ h1 {
   text-decoration: none;
   font-size: 20px;
   color: rgb(158, 158, 158);
+}
+.code-link:hover {
+  color: rgba(51, 171, 187, 0.801);
 }
