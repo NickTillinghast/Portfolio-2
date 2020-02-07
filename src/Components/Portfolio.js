@@ -22,7 +22,6 @@ export default function Portfolio() {
                   big part of my photography business and now I bring those
                   passions into my web development.
                 </div>
-
                 <div>
                   <div className="image-div">
                     <img className="profile-image" src={profile} alt="none" />
@@ -97,11 +96,9 @@ export default function Portfolio() {
                 >
                   View Code Here
                 </a>
-
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>

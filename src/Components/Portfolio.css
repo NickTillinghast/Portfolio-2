@@ -84,3 +84,22 @@ h1 {
 .code-link:hover {
   color: rgba(51, 171, 187, 0.801);
 }
+@media (max-width: 1060px) {
+  .portfolio-text {
+    height: 35vh;
+    width: 70vw;
+  }
+  .profile-image {
+    width: 200px;
+    border-radius: 700px;
+  }
+  .about-blurb {
+    letter-spacing: 2px;
+  }
+}
+@media (max-width: 850px) {
+  .portfolio-text {
+    height: 40vh;
+    width: 80vw;
+  }
+}

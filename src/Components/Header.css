@@ -50,3 +50,26 @@
 .resume:hover {
   color: rgba(51, 171, 187, 0.801);
 }
+@media (max-width: 1060px) {
+  .header-name {
+    padding: 10px;
+    font-size: 20px;
+  }
+  .resume {
+    padding: 10px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 775px) {
+  .header-name {
+    padding: 10px;
+    font-size: 15px;
+  }
+  .resume {
+    padding: 10px;
+    font-size: 15px;
+  }
+  .titles {
+    justify-content: space-evenly;
+  }
+}
