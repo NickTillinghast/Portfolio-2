@@ -50,7 +50,8 @@ h1 {
     0px 10px 20px rgba(0, 0, 0, 0.541);
 }
 .words {
-  font-family: "Noto Serif", serif;
+  /* font-family: "Noto Serif", serif; */
+  font-family: "Roboto", sans-serif;
 }
 .portfolio-text {
   display: flex;
@@ -70,7 +71,7 @@ h1 {
   align-items: center;
   font-size: 20px;
   margin-right: 60px;
-  font-family: serif;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 4px;
 }
 .portfolio-content {

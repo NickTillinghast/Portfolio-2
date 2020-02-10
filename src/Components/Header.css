@@ -12,7 +12,8 @@
   color: white;
   list-style-type: none;
   justify-content: space-evenly;
-  font-family: "Noto Serif", serif;
+  /* font-family: "Noto Serif", serif; */
+  font-family: "Roboto", sans-serif;
 }
 .link-items {
   display: flex;
@@ -33,7 +34,7 @@
   font-size: 25px;
   padding: 30px;
   letter-spacing: 5px;
-  font-family: "Noto Serif", serif;
+  font-family: "Roboto", sans-serif;
   text-decoration: none;
 }
 .titles {
