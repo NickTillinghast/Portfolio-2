@@ -12,9 +12,18 @@
   background-size: cover;
   background-position: bottom;
 }
-.boxes {
+.boxes-1 {
   display: flex;
   justify-content: space-around;
+  height: 400px;
+  padding: 30px;
+  background-color: #141414;
+  border-color: rgba(51, 171, 187, 0.801);
+  border-style: solid;
+  border-width: 3px;
+}
+.boxes-2 {
+  display: flex;
   height: 400px;
   padding: 30px;
   background-color: #141414;
