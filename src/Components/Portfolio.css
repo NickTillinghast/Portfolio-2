@@ -78,21 +78,28 @@ h1 {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-  font-size: 20px;
   margin-right: 60px;
   font-family: "Roboto", sans-serif;
-  letter-spacing: 4px;
+  font-size: 0.8rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  line-height: 1.5;
 }
 .portfolio-content {
   width: 100vw;
 }
 .code-link {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1.1rem;
   color: rgb(158, 158, 158);
+  text-transform: uppercase;
 }
 .code-link:hover {
   color: rgba(51, 171, 187, 0.801);
+}
+.profile-image-div {
+  margin-left: 20px;
 }
 @media (max-width: 1100px) {
   .projects,
@@ -113,8 +120,18 @@ h1 {
     letter-spacing: 2px;
   }
 }
+@media (max-width: 1025px) {
+  .portfolio-text {
+    height: 20vh;
+  }
+}
 @media (max-width: 850px) {
-  .boxes {
+  .boxes-1 {
+    flex-direction: column;
+    align-items: center;
+    height: 160vh;
+  }
+  .boxes-2 {
     flex-direction: column;
     align-items: center;
     height: 160vh;
@@ -129,9 +146,10 @@ h1 {
     width: 50vw;
   }
 }
-@media (max-width: 750px) {
+@media (max-width: 770px) {
   .about-blurb {
     width: 100vw;
+    height: 40vh;
   }
   .profile-image-div {
     width: 30vh;
@@ -142,5 +160,50 @@ h1 {
   }
   .portfolio-text {
     height: 25vh;
+  }
+  .boxes-1 {
+    height: 160vh;
+  }
+  .boxes-2 {
+    height: 60vh;
+  }
+}
+@media (max-width: 550px) {
+  .portfolio-text {
+    font-size: 0.7rem;
+    margin-bottom: 30px;
+  }
+  .about-blurb {
+    height: 60vh;
+    flex-direction: column-reverse;
+  }
+  .profile-image {
+    width: 100px;
+  }
+  .image-div {
+    margin-right: 1px;
+    margin-top: 20px;
+    margin-bottom: none;
+  }
+  .boxes-2 {
+    height: 60vh;
+  }
+  .boxes-1 {
+    height: 180vh;
+  }
+  .projects,
+  h1 {
+    width: 80vw;
+  }
+}
+@media (max-width: 325px) {
+  .about-blurb {
+    height: 70vh;
+  }
+  .boxes-1 {
+    height: 180vh;
+  }
+  .portfolio-text {
+    height: 28vh;
   }
 }

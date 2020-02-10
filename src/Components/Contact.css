@@ -6,7 +6,13 @@
   padding: 40px;
   background-color: rgb(186, 213, 218);
 }
-
+.contact-label {
+  font-size: 0.8rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  line-height: 1.5;
+}
 .form-boxes {
   display: flex;
   flex-direction: row;
@@ -48,5 +54,23 @@
 @media (max-width: 1150px) {
   .skills {
     display: block;
+  }
+}
+@media (max-width: 1025px) {
+  .input-boxes {
+    width: 40vh;
+  }
+}
+@media (max-width: 770px) {
+  .input-boxes {
+    width: 56vw;
+  }
+}
+@media (max-width: 550px) {
+  .input-boxes {
+    width: 70vw;
+  }
+  .send-button {
+    width: 30vw;
   }
 }

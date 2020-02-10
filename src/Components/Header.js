@@ -8,7 +8,7 @@ export default function Header() {
       <div className="link-box">
         <ul className="link-items">
           <li className="links">
-            <a className="links" href="https://github.com/NickTillinghast">
+            <a className="links" href="https://github.com/NickTillinghast" target="blank">
               <FaGithub size="50px" />
             </a>
           </li>
@@ -16,7 +16,7 @@ export default function Header() {
           <li className="links">
             <a
               className="links"
-              href="https://www.linkedin.com/in/nick-tillinghast-065b2951/"
+              href="https://www.linkedin.com/in/nick-tillinghast-065b2951/" target="blank"
             >
               <FaLinkedin size="50px" />{" "}
             </a>
@@ -24,12 +24,12 @@ export default function Header() {
         </ul>
       </div>
       <div className="titles">
-        <div className="header-name">Nick Tillinghast</div>
-        <div className="header-name">Web Developer</div>
-        <div className="header-name">
+        <div className="header-name-1">Nick Tillinghast</div>
+        <div className="header-name-1">Web Developer</div>
+        <div className="header-name-2">
           <a
             className="resume"
-            href="https://docs.google.com/document/d/17paeshjmnftP1skHQNKtNnlP3Rh_uvTmYAoA7YpJllM/edit?usp=sharing"
+            href="https://docs.google.com/document/d/17paeshjmnftP1skHQNKtNnlP3Rh_uvTmYAoA7YpJllM/edit?usp=sharing" target="blank"
           >
             Resume
           </a>

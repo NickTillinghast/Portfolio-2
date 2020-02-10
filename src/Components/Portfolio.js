@@ -12,7 +12,6 @@ export default function Portfolio() {
       <div className="words">
         <div className="portfolio-content">
           <div className="middle">
-            {/* <div>React, Node.js, Javascript, PostgrasSql</div> */}
             <div>
               <div className="about-blurb">
                 <div className="portfolio-text">
@@ -41,13 +40,13 @@ export default function Portfolio() {
 
                 <a
                   className="code-link"
-                  href="https://github.com/NickTillinghast/personal-project"
+                  href="https://github.com/NickTillinghast/personal-project" target="blank"
                 >
                   View Code Here
                 </a>
                 <a
                   className="code-link"
-                  href="https://nicktillinghastphotography.com/#/"
+                  href="https://nicktillinghastphotography.com/#/" target="blank"
                 >
                   Live Site Here
                 </a>
@@ -60,7 +59,7 @@ export default function Portfolio() {
                 </h1>
                 <a
                   className="code-link"
-                  href="https://github.com/NickTillinghast/no-db"
+                  href="https://github.com/NickTillinghast/no-db" target="blank"
                 >
                   View Code Here
                 </a>
@@ -73,17 +72,17 @@ export default function Portfolio() {
                 </h1>
                 <a
                   className="code-link"
-                  href="https://github.com/C-E-Campbell/groupProjectWPX15"
+                  href="https://github.com/C-E-Campbell/groupProjectWPX15" target="blank"
                 >
                   View Code Here
                 </a>
-                <a className="code-link" href="https://thisisdevmountain.com/">
+                <a className="code-link" href="https://thisisdevmountain.com/" target="blank">
                   Live Site Here
                 </a>
               </div>
             </div>
             <div className="boxes-2">
-              coming soon<div className="elements">
+              <div className="elements">
                 <img className="projects" src={juniors} alt="none" />
                 <h1>Coming soon</h1>
                 <h1>
@@ -92,7 +91,7 @@ export default function Portfolio() {
 
                 <a
                   className="code-link"
-                  href="https://github.com/NickTillinghast/juniors"
+                  href="https://github.com/NickTillinghast/juniors" target="blank"
                 >
                   View Code Here
                 </a>
