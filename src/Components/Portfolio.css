@@ -6,7 +6,7 @@
   background-color: rgb(255, 255, 255);
 }
 .middle {
-  background-image: url(../media/landing2.jpg);
+  background-image: url(../media/landing3.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -40,13 +40,16 @@
   height: inherit;
 }
 .image-div {
+  display: block;
+  width: 30vw;
+  height: 50vh;
   margin-right: 120px;
-  margin-top: 50px;
-  margin-bottom: 40px;
+
+  background-color: rgba(41, 41, 41, 0.651);
 }
 .profile-image {
+  margin-top: 20px;
   width: 250px;
-  border-radius: 700px;
 }
 h1 {
   width: 20vw;
@@ -114,7 +117,6 @@ h1 {
   }
   .profile-image {
     width: 200px;
-    border-radius: 700px;
   }
   .about-blurb {
     letter-spacing: 2px;
