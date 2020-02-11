@@ -48,7 +48,7 @@ export default function Portfolio() {
                   className="code-link"
                   href="https://nicktillinghastphotography.com/#/" target="blank"
                 >
-                  Live Site Here
+                  Live Hosted Site Here
                 </a>
               </div>
               <div className="elements">
@@ -77,7 +77,7 @@ export default function Portfolio() {
                   View Code Here
                 </a>
                 <a className="code-link" href="https://thisisdevmountain.com/" target="blank">
-                  Live Site Here
+                  Live Hosted Site Here
                 </a>
               </div>
             </div>
