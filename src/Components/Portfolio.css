@@ -7,7 +7,7 @@
 }
 .middle {
   background-image: url(../media/landing3.jpg);
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -44,8 +44,7 @@
   width: 30vw;
   height: 50vh;
   margin-right: 120px;
-
-  background-color: rgba(41, 41, 41, 0.651);
+  background-color: rgba(39, 54, 65, 0.651);
 }
 .profile-image {
   margin-top: 20px;
@@ -126,12 +125,15 @@ h1 {
   .portfolio-text {
     height: 20vh;
   }
+  .image-div {
+    margin-right: 55px;
+  }
 }
 @media (max-width: 850px) {
   .boxes-1 {
     flex-direction: column;
     align-items: center;
-    height: 160vh;
+    height: 180vh;
   }
   .boxes-2 {
     flex-direction: column;
@@ -151,7 +153,8 @@ h1 {
 @media (max-width: 770px) {
   .about-blurb {
     width: 100vw;
-    height: 40vh;
+    height: 70vh;
+    flex-direction: column-reverse;
   }
   .profile-image-div {
     width: 30vh;
@@ -162,12 +165,17 @@ h1 {
   }
   .portfolio-text {
     height: 25vh;
+    margin-bottom: 30px;
   }
   .boxes-1 {
     height: 160vh;
   }
   .boxes-2 {
     height: 60vh;
+  }
+  .image-div {
+    height: 33vh;
+    width: 35vw;
   }
 }
 @media (max-width: 550px) {
@@ -186,7 +194,9 @@ h1 {
     margin-right: 1px;
     margin-top: 20px;
     margin-bottom: none;
+    height: 25vh;
   }
+
   .boxes-2 {
     height: 60vh;
   }
@@ -198,6 +208,18 @@ h1 {
     width: 80vw;
   }
 }
+@media (max-width: 460px) {
+  .image-div {
+    height: 25vh;
+    width: 90%;
+  }
+}
+@media (max-width: 390px) {
+  .image-div {
+    height: 25vh;
+    width: 90%;
+  }
+}
 @media (max-width: 325px) {
   .about-blurb {
     height: 70vh;
@@ -207,5 +229,11 @@ h1 {
   }
   .portfolio-text {
     height: 28vh;
+  }
+}
+@media (max-width: 330px) {
+  .image-div {
+    height: 27vh;
+    width: 50vw;
   }
 }
