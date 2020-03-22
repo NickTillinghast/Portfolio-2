@@ -2,7 +2,7 @@ import React from "react";
 import photography from "../media/photography.png";
 import "./Portfolio.css";
 import critique from "../media/critique.png";
-import profile from "../media/profile.jpg";
+import profile from "../media/profile.png";
 import juniors from "../media/juniors.png";
 import thisisdevmtn from "../media/thisisdevmtn.png";
 
