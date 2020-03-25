@@ -84,7 +84,7 @@ export default function Portfolio() {
             <div className="boxes-2">
               <div className="elements">
                 <img className="projects" src={juniors} alt="none" />
-                <h1>Coming soon</h1>
+
                 <h1>
                   Business website for Junior Barber Parlor providing business information and online representation of barbers.
                 </h1>
