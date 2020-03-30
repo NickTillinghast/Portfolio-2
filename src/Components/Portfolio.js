@@ -95,6 +95,9 @@ export default function Portfolio() {
                 >
                   View Code Here
                 </a>
+                <a className="code-link" href="https://juniorsbarberparlor.netlify.com/#/" target="blank">
+                  Live Hosted Site Here
+                </a>
               </div>
             </div>
           </div>
