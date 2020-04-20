@@ -7,7 +7,7 @@
 }
 .middle {
   background-image: url(../media/landing3.jpg);
-  /* background-attachment: fixed; */
+
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -61,7 +61,6 @@ h1 {
     0px 10px 20px rgba(0, 0, 0, 0.541);
 }
 .words {
-  /* font-family: "Noto Serif", serif; */
   font-family: "Roboto", sans-serif;
 }
 .portfolio-text {
