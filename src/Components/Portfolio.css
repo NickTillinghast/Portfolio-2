@@ -48,7 +48,8 @@
 }
 .profile-image {
   margin-top: 40px;
-  width: 250px;
+  /* width: 250px; */
+  height: 300px;
 }
 h1 {
   width: 20vw;
@@ -102,16 +103,22 @@ h1 {
 .profile-image-div {
   margin-left: 20px;
 }
-@media (max-height: 1366px) {
+/* @media (max-height: 1366px) {
   .image-div {
-    height: 40vh;
+    height: 50vh;
   }
-}
+} */
 @media (max-width: 1366px) {
   .image-div {
     height: 40vh;
   }
 }
+@media (max-height: 1024px) {
+  .image-div {
+    height: 40vh;
+  }
+}
+
 @media (max-width: 1100px) {
   .projects,
   h1 {
@@ -143,9 +150,9 @@ h1 {
   .header-main {
     height: 8vh;
   }
-  .image-div {
+  /* .image-div {
     height: 28vh;
-  }
+  } */
 }
 @media (max-width: 850px) {
   .boxes-1 {
