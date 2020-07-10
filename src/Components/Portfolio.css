@@ -40,16 +40,17 @@
   height: inherit;
 }
 .image-div {
-  display: block;
+  /* display: block; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 30vw;
   height: 50vh;
   margin-right: 120px;
   background-color: rgba(39, 54, 65, 0.651);
 }
 .profile-image {
-  margin-top: 40px;
-  /* width: 250px; */
-  height: 300px;
+  width: 170px;
 }
 h1 {
   width: 20vw;
@@ -82,7 +83,7 @@ h1 {
   align-items: center;
   margin-right: 60px;
   font-family: "Roboto", sans-serif;
-  font-size: 0.8rem;
+  font-size: 15px;
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
@@ -100,17 +101,15 @@ h1 {
 .code-link:hover {
   color: rgba(51, 171, 187, 0.801);
 }
-.profile-image-div {
-  margin-left: 20px;
-}
-/* @media (max-height: 1366px) {
-  .image-div {
-    height: 50vh;
-  }
-} */
+
 @media (max-width: 1366px) {
   .image-div {
     height: 40vh;
+  }
+}
+@media (max-height: 1366px) {
+  .image-div {
+    height: 30vh;
   }
 }
 @media (max-height: 1024px) {
