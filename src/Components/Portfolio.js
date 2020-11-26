@@ -5,6 +5,9 @@ import critique from "../media/critique.png";
 import profile from "../media/profile.png";
 import juniors from "../media/juniors.png";
 import thisisdevmtn from "../media/thisisdevmtn.png";
+import crownClothing from "../media/crownClothing.png";
+import infiniteScroll from "../media/infiniteScroll.png";
+import jokeTeller from "../media/jokeTeller.png"
 
 export default function Portfolio() {
   return (
@@ -98,6 +101,55 @@ export default function Portfolio() {
                 <a className="code-link" href="https://juniorsbarberparlor.netlify.com/#/" target="blank">
                   Live Hosted Site Here
                 </a>
+              </div>
+              <div className="elements">
+                <img className="projects" src={crownClothing} alt="none" />
+
+                <h1>
+                  E-commerce site for clothing company with galleries and google login.  Payments accepted with stripe API.
+                </h1>
+
+                <a
+                  className="code-link"
+                  href="https://github.com/NickTillinghast/crown-clothing-e-commerce" target="blank"
+                >
+                  View Code Here
+                </a>
+                <a className="code-link" href="https://crown-live-build.herokuapp.com/" target="blank">
+                  Live Hosted Site Here
+                </a>
+              </div>
+              <div className="elements">
+                <img className="projects" src={infiniteScroll} alt="none" />
+
+                <h1>
+                  Infinite Scroll using the Unsplash API.  App loads images to create constant page of images to scroll through.                </h1>
+
+                <a
+                  className="code-link"
+                  href="https://github.com/NickTillinghast/Infinite-Scroll-Images" target="blank"
+                >
+                  View Code Here
+                </a>
+                <a className="code-link" href="https://nicktillinghast.github.io/Infinite-Scroll-Images/" target="blank">
+                  Live Hosted Site Here
+                </a>
+              </div>
+              <div className="elements">
+                <img className="projects" src={jokeTeller} alt="none" />
+
+                <h1>
+                  Joke Teller app using the text to speech api and joke api.</h1>
+                <a
+                  className="code-link"
+                  href="https://github.com/NickTillinghast/joke-teller" target="blank"
+                >
+                  View Code Here
+                </a>
+                <a className="code-link" href="https://nicktillinghast.github.io/joke-teller/" target="blank">
+                  Live Hosted Site Here
+                </a>
+
               </div>
             </div>
           </div>
