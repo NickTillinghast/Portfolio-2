@@ -135,6 +135,8 @@ export default function Portfolio() {
                   Live Hosted Site Here
                 </a>
               </div>
+            </div>
+            <div className="boxes-3">
               <div className="elements">
                 <img className="projects" src={jokeTeller} alt="none" />
 
@@ -149,9 +151,12 @@ export default function Portfolio() {
                 <a className="code-link" href="https://nicktillinghast.github.io/joke-teller/" target="blank">
                   Live Hosted Site Here
                 </a>
-
               </div>
+
+
+
             </div>
+
           </div>
         </div>
       </div>
