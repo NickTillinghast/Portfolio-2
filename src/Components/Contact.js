@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 import "./Contact.css";
-import { FaReact, FaCss3Alt, FaNode } from "react-icons/fa";
+import { FaReact, FaCss3Alt, FaNode, FaAws } from "react-icons/fa";
 import {
   DiPostgresql,
   DiJsBadge,
@@ -9,7 +9,8 @@ import {
   DiHtml5,
   DiVisualstudio,
   DiSass,
-  DiPhotoshop
+  DiPhotoshop,
+  DiMongodb
 } from "react-icons/di";
 
 export default class Contact extends Component {
@@ -127,16 +128,22 @@ export default class Contact extends Component {
             </div>
           </form>
           <div className="skills">
-            <FaCss3Alt size="100px" color="#1975ff" />
-            <DiGithubFull size="100px" color="#000000" />
-            <DiPostgresql size="100px" color="#125d88" />
-            <FaReact size="100px" color="#32c6e0" />
-            <FaNode size="100px" color="#1bd449" />
-            <DiJsBadge size="100px" color="#ffd82d" />
-            <DiHtml5 size="100px" color="#f13d1e" />
-            <DiVisualstudio size="100px" color="#408abb" />
-            <DiSass size="100px" color="#ff5ef7" />
-            <DiPhotoshop size="100px" color="#1975ff" />
+            <div className="skills-box">
+              <FaCss3Alt size="100px" color="#1975ff" />
+              <DiGithubFull size="100px" color="#000000" />
+              <DiPostgresql size="100px" color="#125d88" />
+              <FaReact size="100px" color="#32c6e0" />
+              <FaNode size="100px" color="#1bd449" />
+              <DiJsBadge size="100px" color="#ffd82d" />
+            </div>
+            <div className="skills-box">
+              <DiHtml5 size="100px" color="#f13d1e" />
+              <DiVisualstudio size="100px" color="#408abb" />
+              <DiSass size="100px" color="#ff5ef7" />
+              <DiPhotoshop size="100px" color="#1975ff" />
+              <DiMongodb size='100px' color="#1bd449" />
+              <FaAws size="100px" color="#FF9900" />
+            </div>
           </div>
         </div>
       </div>

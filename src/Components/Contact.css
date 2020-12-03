@@ -49,8 +49,13 @@
 }
 .skills {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: space-between;
   width: 100vw;
+}
+.skills-box {
+  display: flex;
+  justify-content: space-evenly;
 }
 @media (max-width: 1150px) {
   .skills {
