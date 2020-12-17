@@ -172,7 +172,12 @@ h1 {
   .boxes-2 {
     flex-direction: column;
     align-items: center;
-    height: 60vh;
+    height: 120vh;
+  }
+  .boxes-3 {
+    flex-direction: column;
+    align-items: center;
+    height: 120vh;
   }
 
   .portfolio-text {
@@ -205,11 +210,22 @@ h1 {
     height: 160vh;
   }
   .boxes-2 {
+    height: 160vh;
+  }
+  .boxes-3 {
     height: 60vh;
   }
   .image-div {
     height: 33vh;
     width: 35vw;
+  }
+}
+@media (max-height: 540px) {
+  .boxes-1 {
+    height: 220vh;
+  }
+  .boxes-2 {
+    height: 220vh;
   }
 }
 @media (max-width: 550px) {
@@ -230,13 +246,16 @@ h1 {
     margin-bottom: none;
     height: 25vh;
   }
-
-  .boxes-2 {
-    height: 60vh;
-  }
-  .boxes-1 {
+ .boxes-1 {
     height: 180vh;
   }
+  .boxes-2 {
+    height: 180vh;
+  }
+  .boxes-3 {
+    height: 60vh;
+  }
+ 
   .projects,
   h1 {
     width: 80vw;
@@ -248,12 +267,47 @@ h1 {
     width: 90%;
   }
 }
+@media (max-height: 411px) {
+  .portfolio-text {
+    height: 55vh;
+
+    font-size: 12px;
+}
+  .boxes-1 {
+    height: 300vh;
+}
+.boxes-2 {
+  height: 320vh;
+}
+.boxes-3 {
+  height: 100vh;
+}
+.profile-image {
+  width: 110px;
+}
+.profile-image-div {
+  width: 75vh; 
+   margin-left: 0px;
+}
+.image-div {
+  height: 30vh;
+}
+.header-main {
+  height: 20vh;
+}
+}
+@media (max-height: 375px) {
+  .header-main {
+    height: 20vh;
+  }
+}
 @media (max-width: 390px) {
   .image-div {
     height: 25vh;
     width: 90%;
   }
 }
+
 @media (max-width: 325px) {
   .about-blurb {
     height: 70vh;
@@ -261,10 +315,48 @@ h1 {
   .boxes-1 {
     height: 180vh;
   }
+  .boxes-2{
+    height: 180vh;
+  }
+  .boxes-3{
+    height: 60vh;
+  }
 
   .portfolio-text {
     height: 28vh;
   }
+}
+@media (max-height: 360px) {
+  .about-blurb {
+    height: 80vh;
+  }
+  .boxes-1 {
+    height: 285vh;
+}
+  .boxes-2{
+    height: 305vh;
+}
+.boxes-3 {
+  height: 85vh;
+}
+.portfolio-text {
+  height: 25vh;
+  font-size: 10px;
+}
+.profile-image {
+  width: 125px;
+}
+.profile-image-div {
+  width: 65vh;
+  margin-left: 0px;
+}
+.header-main {
+  height: 20vh;
+}
+.image-div {
+  height: 40vh;
+
+}
 }
 @media (max-width: 330px) {
   .image-div {
