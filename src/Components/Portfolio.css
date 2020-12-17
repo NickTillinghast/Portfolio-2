@@ -296,18 +296,17 @@ h1 {
   height: 20vh;
 }
 }
-@media (max-height: 375px) {
-  .header-main {
-    height: 20vh;
-  }
-}
 @media (max-width: 390px) {
   .image-div {
     height: 25vh;
     width: 90%;
   }
 }
-
+@media (max-height: 375px) {
+  .header-main {
+    height: 20vh;
+  }
+}
 @media (max-width: 325px) {
   .about-blurb {
     height: 70vh;
