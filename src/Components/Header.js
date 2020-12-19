@@ -12,7 +12,6 @@ export default function Header() {
               <FaGithub size="50px" />
             </a>
           </li>
-
           <li className="links">
             <a
               className="links"

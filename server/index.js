@@ -21,10 +21,7 @@ app.use(
   })
 );
 
-// massive(CONNECTION_STRING).then(db => {
-//   console.log("db connected");
-//   app.set("db", db);
-// });
+
 
 app.post("/auth/contact", (req, res) => {
   const { firstName, lastName, email, phone } = req.body;
@@ -58,7 +55,7 @@ app.post("/auth/contact", (req, res) => {
            <body>`
   };
 
-  transporter.sendMail(mailOptions, function(err, data) {
+  transporter.sendMail(mailOptions, function (err, data) {
     if (err) {
       console.log("error occurs");
     } else {
