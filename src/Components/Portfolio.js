@@ -84,7 +84,7 @@ export default function Portfolio() {
                 </a>
               </div>
             </div>
-            <div className="boxes-2">
+            <div className="boxes-1">
               <div className="elements">
                 <img className="projects" src={juniors} alt="none" />
 
@@ -136,7 +136,7 @@ export default function Portfolio() {
                 </a>
               </div>
             </div>
-            <div className="boxes-3">
+            <div className="boxes-1">
               <div className="elements">
                 <img className="projects" src={jokeTeller} alt="none" />
 

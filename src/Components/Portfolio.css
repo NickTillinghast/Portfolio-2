@@ -7,7 +7,6 @@
 }
 .middle {
   background-image: url(../media/landing3.jpg);
-
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -22,7 +21,7 @@
   border-style: solid;
   border-width: 3px;
 }
-.boxes-2 {
+/* .boxes-2 {
   display: flex;
   justify-content: space-around;
   height: 400px;
@@ -31,8 +30,8 @@
   border-color: rgba(51, 171, 187, 0.801);
   border-style: solid;
   border-width: 3px;
-}
-.boxes-3 {
+} */
+/* .boxes-3 {
   display: flex;
   justify-content: space-around;
   height: 400px;
@@ -41,7 +40,7 @@
   border-color: rgba(51, 171, 187, 0.801);
   border-style: solid;
   border-width: 3px;
-}
+} */
 .elements {
   display: flex;
   flex-direction: column;
@@ -169,7 +168,7 @@ h1 {
     align-items: center;
     height: 180vh;
   }
-  .boxes-2 {
+  /* .boxes-2 {
     flex-direction: column;
     align-items: center;
     height: 120vh;
@@ -178,7 +177,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     height: 120vh;
-  }
+  } */
 
   .portfolio-text {
     height: 40vh;
@@ -206,7 +205,7 @@ h1 {
     height: 25vh;
     margin-bottom: 30px;
   }
-  .boxes-1 {
+  /* .boxes-1 {
     height: 160vh;
   }
   .boxes-2 {
@@ -214,7 +213,7 @@ h1 {
   }
   .boxes-3 {
     height: 60vh;
-  }
+  } */
   .image-div {
     height: 33vh;
     width: 35vw;
@@ -224,9 +223,9 @@ h1 {
   .boxes-1 {
     height: 220vh;
   }
-  .boxes-2 {
+  /* .boxes-2 {
     height: 220vh;
-  }
+  } */
 }
 @media (max-width: 550px) {
   .portfolio-text {
@@ -249,12 +248,12 @@ h1 {
  .boxes-1 {
     height: 180vh;
   }
-  .boxes-2 {
+  /* .boxes-2 {
     height: 180vh;
   }
   .boxes-3 {
     height: 60vh;
-  }
+  } */
  
   .projects,
   h1 {
@@ -276,12 +275,12 @@ h1 {
   .boxes-1 {
     height: 300vh;
 }
-.boxes-2 {
+/* .boxes-2 {
   height: 320vh;
 }
 .boxes-3 {
   height: 100vh;
-}
+} */
 .profile-image {
   width: 110px;
 }
@@ -314,12 +313,12 @@ h1 {
   .boxes-1 {
     height: 180vh;
   }
-  .boxes-2{
+  /* .boxes-2{
     height: 180vh;
   }
   .boxes-3{
     height: 60vh;
-  }
+  } */
 
   .portfolio-text {
     height: 28vh;
@@ -332,9 +331,9 @@ h1 {
   .boxes-1 {
     height: 285vh;
 }
-  .boxes-2{
+  /* .boxes-2{
     height: 305vh;
-}
+} */
 .boxes-3 {
   height: 85vh;
 }
