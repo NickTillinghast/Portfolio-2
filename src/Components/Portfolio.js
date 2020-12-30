@@ -102,7 +102,7 @@ export default function Portfolio() {
                   Live Hosted Site Here
                 </a>
               </div>
-              <div className="elements">
+              {/* <div className="elements">
                 <img className="projects" src={crownClothing} alt="none" />
 
                 <h1>
@@ -118,7 +118,7 @@ export default function Portfolio() {
                 <a className="code-link" href="https://crown-live-build.herokuapp.com/" target="blank">
                   Live Hosted Site Here
                 </a>
-              </div>
+              </div> */}
               <div className="elements">
                 <img className="projects" src={infiniteScroll} alt="none" />
 

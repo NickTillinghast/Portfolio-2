@@ -25,15 +25,15 @@ export default function Header() {
       <div className="titles">
         <div className="header-name-1">Nick Tillinghast</div>
         <div className="header-name-1">Web Developer</div>
-        {/* <div className="header-name-2"> */}
-        <a
-          className="resume"
-          href="https://drive.google.com/open?id=116p01UReHCQ-BHkzd0jRVuhLhjbl3Nxo" target="blank"
-        >
-          Resume
+        <div className="header-name-2">
+          <a
+            className="resume"
+            href="https://drive.google.com/open?id=116p01UReHCQ-BHkzd0jRVuhLhjbl3Nxo" target="blank"
+          >
+            Resume
           </a>
+        </div>
       </div>
-    </div>
     </div >
   );
 }
