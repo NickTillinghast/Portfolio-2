@@ -38,7 +38,7 @@ export default function Portfolio() {
                 <img className="projects" src={photography} alt="none" />
                 <h1>
                   Photographer Website showcasing visual talents with many
-                  galleries and contact form to hire photogapher.
+                  galleries and contact form to hire photogapher.  Full C.R.U.D used with client galleries.
                 </h1>
 
                 <a
