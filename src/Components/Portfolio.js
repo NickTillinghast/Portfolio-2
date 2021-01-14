@@ -36,10 +36,10 @@ export default function Portfolio() {
             <div className="boxes-1">
               <div className="elements">
                 <img className="projects" src={photography} alt="none" />
-                {/* <h1>
+                <h1>
                   Photographer Website showcasing visual talents with many
                   galleries and contact form to hire photogapher.  Full C.R.U.D used with client galleries.
-                </h1> */}
+                </h1>
 
                 <a
                   className="code-link"
