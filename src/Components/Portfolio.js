@@ -5,7 +5,7 @@ import critique from "../media/critique.png";
 import profile from "../media/profile.png";
 import juniors from "../media/juniors.png";
 import thisisdevmtn from "../media/thisisdevmtn.png";
-import crownClothing from "../media/crownClothing.png";
+// import crownClothing from "../media/crownClothing.png";
 import infiniteScroll from "../media/infiniteScroll.png";
 import jokeTeller from "../media/jokeTeller.png"
 
@@ -102,7 +102,7 @@ export default function Portfolio() {
                   Live Hosted Site Here
                 </a>
               </div>
-              <div className="elements">
+              {/* <div className="elements">
                 <img className="projects" src={crownClothing} alt="none" />
 
                 <h1>
@@ -118,7 +118,7 @@ export default function Portfolio() {
                 <a className="code-link" href="https://crown-live-build.herokuapp.com/" target="blank">
                   Live Hosted Site Here
                 </a>
-              </div>
+              </div> */}
               <div className="elements">
                 <img className="projects" src={infiniteScroll} alt="none" />
 
