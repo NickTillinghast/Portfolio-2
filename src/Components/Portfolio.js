@@ -15,19 +15,17 @@ export default function Portfolio() {
       <div className="words">
         <div className="portfolio-content">
           <div className="middle">
-            <div>
-              <div className="about-blurb">
-                <div className="portfolio-text">
-                  Former professional photographer turned web developer. I’m
-                  hard working, humble, and always eager to expand my knowledge
-                  to reach my goals. Problem solving and visual elements were a
-                  big part of my photography business and now I bring those
-                  passions into my web development.
+            <div className="about-blurb">
+              <div className="portfolio-text">
+                Former professional photographer turned web developer. I’m
+                hard working, humble, and always eager to expand my knowledge
+                to reach my goals. Problem solving and visual elements were a
+                big part of my photography business and now I bring those
+                passions into my web development.
                 </div>
-                <div className="profile-image-div">
-                  <div className="image-div">
-                    <img className="profile-image" src={profile} alt="none" />
-                  </div>
+              <div className="profile-image-div">
+                <div className="image-div">
+                  <img className="profile-image" src={profile} alt="none" />
                 </div>
               </div>
             </div>

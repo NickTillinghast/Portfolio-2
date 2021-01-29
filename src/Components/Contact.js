@@ -71,17 +71,15 @@ export default class Contact extends Component {
           <form className="contact-form">
             <div className="">
               <div>
-                <div>
-                  <label className="contact-label">First Name</label>
-                </div>
-                <input
-                  className="input-boxes"
-                  type="text"
-                  id="firstName"
-
-                  onChange={e => this.firstHandleChange(e.target.value)}
-                />
+                <label className="contact-label">First Name</label>
               </div>
+              <input
+                className="input-boxes"
+                type="text"
+                id="firstName"
+                onChange={e => this.firstHandleChange(e.target.value)}
+              />
+
               <div>
                 <div>
                   <label className="contact-label">Last Name</label>
@@ -115,7 +113,6 @@ export default class Contact extends Component {
                   onChange={e => this.phoneHandleChange(e.target.value)}
                 />
               </div>
-
               <div className="message-box">
                 <button
                   className="send-button"
