@@ -87,7 +87,7 @@ export default function Portfolio() {
                 <img className="projects" src={juniors} alt="none" />
 
                 <h1>
-                  Business website for Junior Barber Parlor providing business information and online representation of barbers.
+                  Business website for Junior Barber Parlor providing business information and online representation of barbers.  Utilizes galleries Google Maps API and IFrame.
                 </h1>
 
                 <a
