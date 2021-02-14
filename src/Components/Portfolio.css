@@ -21,7 +21,7 @@
   border-style: solid;
   border-width: 3px;
 }
-/* .boxes-2 {
+ .boxes-2 {
   display: flex;
   justify-content: space-around;
   height: 400px;
@@ -30,8 +30,8 @@
   border-color: rgba(51, 171, 187, 0.801);
   border-style: solid;
   border-width: 3px;
-} */
-/* .boxes-3 {
+}
+.boxes-3 {
   display: flex;
   justify-content: space-around;
   height: 400px;
@@ -40,7 +40,7 @@
   border-color: rgba(51, 171, 187, 0.801);
   border-style: solid;
   border-width: 3px;
-} */
+} 
 .elements {
   display: flex;
   flex-direction: column;
