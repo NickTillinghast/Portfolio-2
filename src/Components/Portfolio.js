@@ -100,23 +100,21 @@ export default function Portfolio() {
                   Live Hosted Site Here
                 </a>
               </div>
-              {/* <div className="elements">
-                <img className="projects" src={crownClothing} alt="none" />
+              <div className="elements">
+                <img className="projects" src={jokeTeller} alt="none" />
 
                 <h1>
-                  E-commerce site for clothing company with galleries and google login.  Payments accepted with stripe API.
-                </h1>
-
+                  Joke Teller app using the text to speech api and joke api.</h1>
                 <a
                   className="code-link"
-                  href="https://github.com/NickTillinghast/crown-clothing-e-commerce" target="blank"
+                  href="https://github.com/NickTillinghast/joke-teller" target="blank"
                 >
                   View Code Here
                 </a>
-                <a className="code-link" href="https://crown-live-build.herokuapp.com/" target="blank">
+                <a className="code-link" href="https://nicktillinghast.github.io/joke-teller/" target="blank">
                   Live Hosted Site Here
                 </a>
-              </div> */}
+              </div>
               <div className="elements">
                 <img className="projects" src={infiniteScroll} alt="none" />
 
@@ -134,23 +132,26 @@ export default function Portfolio() {
                 </a>
               </div>
             </div>
-            <div className="boxes-1">
-              <div className="elements">
-                <img className="projects" src={jokeTeller} alt="none" />
+            {/* <div className="elements">
+                <img className="projects" src={crownClothing} alt="none" />
 
                 <h1>
-                  Joke Teller app using the text to speech api and joke api.</h1>
+                  E-commerce site for clothing company with galleries and google login.  Payments accepted with stripe API.
+                </h1>
+
                 <a
                   className="code-link"
-                  href="https://github.com/NickTillinghast/joke-teller" target="blank"
+                  href="https://github.com/NickTillinghast/crown-clothing-e-commerce" target="blank"
                 >
                   View Code Here
                 </a>
-                <a className="code-link" href="https://nicktillinghast.github.io/joke-teller/" target="blank">
+                <a className="code-link" href="https://crown-live-build.herokuapp.com/" target="blank">
                   Live Hosted Site Here
                 </a>
-              </div>
-            </div>
+              </div> */}
+            {/* <div className="boxes-2">
+
+            </div> */}
           </div>
         </div>
       </div>
