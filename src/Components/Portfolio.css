@@ -1,4 +1,4 @@
-/* .portfolio-main {
+ .portfolio-main {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -214,11 +214,11 @@ h1 {
   .boxes-3 {
     height: 60vh;
   } */
-  /* .image-div {
+  .image-div {
     height: 33vh;
     width: 35vw;
-  } */
-/* }
+  } 
+}
 @media (max-height: 540px) {
   .boxes-1 {
     height: 220vh;
@@ -361,4 +361,4 @@ h1 {
     height: 27vh;
     width: 50vw;
   }
-} */ 
+} 
