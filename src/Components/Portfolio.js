@@ -38,7 +38,6 @@ export default function Portfolio() {
                   Photographer Website showcasing visual talents with many
                   galleries and contact form to hire photogapher.  Full C.R.U.D used with client galleries to enable login and auth features.
                 </h1>
-
                 <a
                   className="code-link"
                   href="https://github.com/NickTillinghast/personal-project" target="blank"
@@ -85,11 +84,9 @@ export default function Portfolio() {
             <div className="boxes-1">
               <div className="elements">
                 <img className="projects" src={juniors} alt="none" />
-
                 <h1>
                   Business website for Junior Barber Parlor providing business information and online representation of barbers.  Utilizes galleries Google Maps API and IFrame.
                 </h1>
-
                 <a
                   className="code-link"
                   href="https://github.com/NickTillinghast/juniors" target="blank"
